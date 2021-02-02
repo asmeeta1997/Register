@@ -1,0 +1,40 @@
+body{
+    background-color: skyblue;
+}
+form{
+    background-color: aliceblue; 
+}
+.wid-hei{
+    /* max-width: 800px; */
+    margin-top: 80px;
+}
+.image{
+    background-image: url("../image/try.jpg");
+    color: aliceblue;
+}
+
+/* .text-end{
+    display: flex;
+    height: 100%;
+    flex-direction:column;
+    justify-content: flex-end;
+} */
+
+.btn{
+    cursor: pointer;
+}
+.input-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.fas {
+    margin-top: 2px;
+    padding: 9px;
+    background: white;
+    color: black;
+    position: absolute;
+    right: 0;
+}
+
